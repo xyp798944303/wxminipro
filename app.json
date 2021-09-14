@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/material/material",
+    "pages/upload/upload",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list":[
+      {
+        "text":"资料",
+        "pagePath":"pages/material/material"
+      },
+      {
+        "text":"上传",
+        "pagePath":"pages/upload/upload"
+      },
+      {
+        "text":"我的",
+        "pagePath":"pages/mine/mine"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
