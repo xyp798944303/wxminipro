@@ -3,15 +3,29 @@
 	<view class='top_cont'>
 		<van-search value="{{ value }}" shape="round" background="#4fc08d" placeholder="请输入搜索关键词" />
 	</view>
-
-
 	<view class='main_cont'>
-		<van-card >
-			<view slot="footer">
-				<van-button size="mini" type='primary'>按钮</van-button>
-				<van-button size="mini" type='primary'>按钮</van-button>
+		<view class="card">
+			<view class='card_header'>
+				<view class='title'>
+					xxxx数据
+				</view>
+				<view class='downBtn'>
+					<van-button type="primary" size='mini' bind:click="downLoad">下载</van-button>
+				</view>
+
 			</view>
-		</van-card>
+			<view class='card_main'>
+				的说法犯得上反对法
+			</view>
+			<view class='card_footer'>
+				<view class='uploadDate'>
+					上传日期：2021年9月19日
+				</view>
+
+			</view>
+
+		</view>
+
 	</view>
 
 </view>

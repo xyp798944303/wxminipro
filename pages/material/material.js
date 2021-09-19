@@ -67,5 +67,8 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  downLoad(){
+     console.log('我点击了')
   }
 })

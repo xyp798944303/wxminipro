@@ -1,1 +1,17 @@
 /* pages/upload/upload.wxss */
+.upload{
+    display: flex;
+    padding: 20rpx 40rpx;
+}
+.upload_con{
+    text-align: right;
+    
+}
+.uplaod_label {
+    width: 220rpx;
+    color: #646566;
+    font-size: 35rpx;
+}
+.bottom_btn{
+    margin: 150rpx 40rpx;
+}

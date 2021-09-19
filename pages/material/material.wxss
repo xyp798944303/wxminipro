@@ -1,1 +1,35 @@
 /* pages/material/material.wxss */
+.card{
+    display: flex;
+    height: 300rpx;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 20rpx 40rpx;
+    background-color: #fff;
+    box-shadow: 0 4rpx 24rpx 0 rgba(0,0,0,.1)
+}
+.card_header{
+    flex: 1;
+    padding: 20rpx 20rpx;
+    display: flex;
+}
+.title{
+    flex: 1;
+    font-size: 40rpx;
+    font-weight: 700;
+}
+.downBtn{
+    flex: 1;
+    text-align: right;
+}
+.card_main {
+    flex: 4;
+    padding-left: 40rpx
+}
+.card_footer{
+ flex: 1;
+}
+.uploadDate{
+    text-align: right;
+    font-size: 30rpx;
+}

@@ -1,2 +1,19 @@
 <!--pages/upload/upload.wxml-->
-<text>pages/upload/upload.wxml</text>
+<van-cell-group>
+	<van-field value="{{ username }}" clearable label="文件标题" placeholder="请输入名称" />
+
+	<van-field value="{{ password }}" label="文件描述" type="textarea" autosize placeholder="请输入描述" border="{{ false }}" />
+
+</van-cell-group>
+<view class="upload">
+	<view class='uplaod_label'>
+		选择文件
+	</view>
+	<view class='upload_con'>
+		<van-uploader file-list="{{ fileList }}" max-count="2" bind:after-read="afterRead" />
+	</view>
+
+</view>
+<view class='bottom_btn'>
+	<van-button type='primary' block>提交信息</van-button>
+</view>
